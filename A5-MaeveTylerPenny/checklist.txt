@@ -1,0 +1,63 @@
+# CSC 212 Data Structures
+## Homework 4 Checklist
+
+Listed below are various aspects of the assignment.  When you turn in
+your work, please indicate the status of each item
+
+- YES: indicates that the item is fully complete
+- NO: indicates that the item is not attempted
+- PART: indicates that the item is attempted but not fully complete
+
+
+## Assignment Points:
+
+Postfix.java:
+
+___YES__ 1 pts: Pushes numeric tokens onto the stack
+
+__YES___ 2 pts: Processes operators by popping & combining numbers
+
+__YES___ 2 pts: Produces correct answers to postfix expressions
+
+__YES___ 1 pts: Throws ParseException in case of malformed expressions
+
+
+Calculator.java:
+
+__YES___ 1 pts: Implements Shunting-yard algorithm
+
+___YES__ 1 pt: Output of shunt yard passed to postfix via queue
+
+__YES___ 1 pt: Computes correct arithmetic results for +, -, *, and / operations
+
+___NO__ 1 pt: Properly handles operators with different associative properties (e.g. ^)
+
+
+
+## Kudos:
+
+__NO___ (kudos) Calculator includes additional constants & functions
+
+
+
+## General Items:
+
+___YES__ 4 pts: Program compiles without errors or warnings
+
+__YES___ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+
+___YES__ 2 pt: Complies with style guidelines (missing items 1 pt each):
+
+      ___YES__ Classes & class members all have Javadoc header comments
+
+      ___YES__ Clear and consistent indentation of bracketed sections
+
+      __YES___ Adheres to Java conventions on naming & capitalization
+
+      __YES___ Methods & variables all have clear and accurate names
+
+      ___YES__ Methods avoid confusing side effects
+
+___YES__ 1 pt: All required files included with submission (including completed checklist file)
+
+__YES___ 1 pt: readme.md contains reflection on the assignment
